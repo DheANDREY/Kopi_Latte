@@ -6,7 +6,6 @@ It contains the definition of routes and views for the application.
 import os
 import sys
 import bottle
-import sqlite3
 from bottle import default_app, redirect, route, template, static_file, run, debug
 
 
@@ -23,23 +22,16 @@ def greet():
 
 @route('/json')
 def show_json():
-    return template('db/Cars.json') 
+    return '<h1> Ini Halaman menampilkan data .json</h1>' + template('db/Cars.json')
 
 @route('/xml')
 def show_xml():
-    return template('db/Cars.xml') 
+    return '<h1> Ini Halaman menampilkan data .xml</h1>' + template('db/Cars.xml') 
 
 @route('/csv')
 def show_csv():
-    return template('db/Cars.csv')
-    
-@bottle.route('/css/<filename:re:.*\.css>')
-def send_css(filename):
-    return static_file(filename, root='./css')
-
-@bottle.route('/css/<filename:re:.*\.jpg>')
-def send_jpg(filename):
-    return static_file(filename, root='./css')
+    return '<h1> Ini Halaman menampilkan data .csv</h1>' + template('db/Cars.csv')
+   
 
 @bottle.route('/db/<filename:re:.*\.xml>')
 def send_xml(filename):
