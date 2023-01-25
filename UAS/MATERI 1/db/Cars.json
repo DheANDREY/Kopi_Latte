@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "Audi",
+    "Price": 52642
+  },
+  {
+    "Id": 2,
+    "Name": "Mercedes",
+    "Price": 57127
+  },
+  {
+    "Id": 3,
+    "Name": "Skoda",
+    "Price": 9000
+  },
+  {
+    "Id": 4,
+    "Name": "Volvo",
+    "Price": 29000
+  },
+  {
+    "Id": 5,
+    "Name": "Bentley",
+    "Price": 350000
+  },
+  {
+    "Id": 6,
+    "Name": "Daihatsu",
+    "Price": 50000
+  }
+] 

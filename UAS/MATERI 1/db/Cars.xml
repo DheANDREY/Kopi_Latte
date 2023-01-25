@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Id>Id</Id>
+    <Name>Name</Name>
+    <Price>Price</Price>
+  </row>
+  <row>
+    <Id>1</Id>
+    <Name>Audi</Name>
+    <Price>52642</Price>
+  </row>
+  <row>
+    <Id>2</Id>
+    <Name>Mercedes</Name>
+    <Price>57127</Price>
+  </row>
+  <row>
+    <Id>3</Id>
+    <Name>Skoda</Name>
+    <Price>9000</Price>
+  </row>
+  <row>
+    <Id>4</Id>
+    <Name>Volvo</Name>
+    <Price>29000</Price>
+  </row>
+  <row>
+    <Id>5</Id>
+    <Name>Bentley</Name>
+    <Price>350000</Price>
+  </row>
+  <row>
+    <Id>6</Id>
+    <Name>Daihatsu</Name>
+    <Price>50000</Price>
+  </row>
+</root>
